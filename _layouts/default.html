@@ -22,14 +22,17 @@
 	</head>
 	<body>
 		<header>
-			<div class="container">
-				<div class="company-name"><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/logo.png" alt="DnA Logo" width="200" height="100"/> </a>
-				<span class="company-text" style="font-family: Arial, sans-serif; font-size: 40px; color: white;"> <b>DnA Capital</b> </span>
-				</div>
-
-				{% include navigation.html %}
-			</div>
+		  <div class="container">
+		    <div class="company-name">
+		      <a href="{{ site.baseurl }}/">
+		        <img src="{{ site.baseurl }}/images/logo.png" alt="DnA Logo" width="200" height="100" />
+		        <span class="company-text" style="font-family: Arial, sans-serif; font-size: 40px; color: white; font-weight: bold;">DnA Capital</span>
+		      </a>
+		    </div>
+		    {% include navigation.html %}
+		  </div>
 		</header>
+
 		{{ content }}
 		<footer>
 			<div class="container">
